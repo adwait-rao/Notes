@@ -150,13 +150,23 @@
               "icon": "lucide-list",
               "title": "Outline of Maps"
             }
+          },
+          {
+            "id": "86c825e5f926708c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,7 +179,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "87138d87deabcac2",
+  "active": "28f8ddaecd2b86be",
   "lastOpenFiles": [
     "DSA-leetcode/Collection Framework - Java.md",
     "golang/Structs.md",

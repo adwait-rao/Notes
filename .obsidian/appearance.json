@@ -1,0 +1,8 @@
+{
+  "baseFontSize": 18,
+  "monospaceFontFamily": "JetBrainsMono Nerd Font",
+  "cssTheme": "Catppuccin",
+  "textFontFamily": "Inter",
+  "baseFontSizeAction": true,
+  "nativeMenus": false
+}

@@ -146,7 +146,7 @@ Structs are used extensively in Go for various purposes:
     
 - **Generics:** With the introduction of generics in Go, you can now define structs with type parameters, making them reusable with different types.
     
-    ```go
+```go
     type Stack[T any] struct {
         elements []T
     }

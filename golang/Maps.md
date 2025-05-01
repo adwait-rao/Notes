@@ -1,4 +1,4 @@
-Go maps are a powerful and convenient **built-in data structure** in Go that **associate values of one type (the _key_) with values of another type (the _element_ or _value_)**. They are similar to hash tables or dictionaries in other programming languages.
+Go maps are a powerful and convenient **built-in data structure** in Go that **associate values of one type (the _key_) with values of another type (the _element_ or _value_)**. They are similar to hash tables or dictionaries in other programming languages. 
 
 **Key Properties of Go Maps:**
 

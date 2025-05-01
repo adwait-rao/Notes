@@ -1,15 +1,15 @@
 The **"comma ok" idiom** in the context of **type assertions in Go** is a way to **safely check if an interface value holds a value of a specific type**. A regular type assertion `value.(typeName)` will cause a **panic at runtime if the interface value does not hold the asserted type**. The "comma ok" idiom provides a mechanism to handle this possibility gracefully without crashing the program.
-
+ 
 Here's how the "comma ok" idiom works with type assertions:
 
 - **Syntax:** Instead of assigning the result of the type assertion to a single variable, you assign it to **two variables**, separated by a comma. The syntax looks like this:
-    
-    ```
-    result, ok := value.(typeName)
-    ```
-    
-    Here, `value` is an expression of an interface type, and `typeName` is the type you are asserting it to be. `result` will be the value of the asserted type, and `ok` will be a boolean value indicating whether the assertion was successful.
-    
+
+```go
+result, ok := value.(typeName)
+```
+
+Here, `value` is an expression of an interface type, and `typeName` is the type you are asserting it to be. `result` will be the value of the asserted type, and `ok` will be a boolean value indicating whether the assertion was successful.
+
 - **Purpose:** The primary purpose of the "comma ok" idiom is to **avoid runtime panics** that would occur if a simple type assertion failed. It allows you to check the underlying type of an interface value before attempting to use it as that specific type.
     
 - **Return Values:**

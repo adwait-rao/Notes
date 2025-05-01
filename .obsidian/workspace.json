@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "golang/Structs.md",
+                "file": "golang/Comma ok idiom.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Structs"
+              "title": "Comma ok idiom"
             }
           }
         ]
@@ -181,10 +181,11 @@
   },
   "active": "28f8ddaecd2b86be",
   "lastOpenFiles": [
-    "DSA-leetcode/Collection Framework - Java.md",
+    "golang/Errors, Panic, Recover.md",
+    "golang/Maps.md",
     "golang/Structs.md",
+    "DSA-leetcode/Collection Framework - Java.md",
     "gdg website assets attributions.md",
-    "Cloud Computing Notes.md",
-    "golang/Maps.md"
+    "Cloud Computing Notes.md"
   ]
 }

@@ -1,5 +1,5 @@
 In Go, error handling, panics, and recovery are distinct mechanisms for dealing with unexpected situations in your program.
-
+ 
 ### Errors
 
 Go handles errors by returning a value of the built-in `error` interface type as one of the return values of a function. By convention, the `error` is the last return value. A `nil` error value indicates that the operation was successful, while a non-`nil` error value signifies that something went wrong.

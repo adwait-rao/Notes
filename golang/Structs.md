@@ -121,7 +121,7 @@ Structs are used extensively in Go for various purposes:
 - **Representing Data:** Structs are ideal for organizing related pieces of information into a single, coherent unit, like the `Person`, `Employee`, and `Manager` examples above. This improves code readability and maintainability.
     
 - **Function Parameters and Return Values:** Structs can be passed as arguments to functions (either by value or by pointer) and returned as results, allowing you to work with complex data in a structured way. When passing large structs, it's often more efficient to pass a pointer to the struct to avoid copying the entire data structure.
-    
+     
 - **Defining Types with Associated Behavior:** By attaching methods to structs, you can define types that not only hold data but also have associated behavior. This is a key aspect of how Go achieves some object-oriented programming principles without explicit classes.
     
 - **Backing for Other Data Structures:** In some cases, structs are used internally to implement other data structures. For example, slices in Go are implemented as a struct containing a pointer to an underlying array, a length, and a capacity.
